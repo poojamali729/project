@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM</title>
+    </head>
+    <body >
+       
+        <form>
+            <fieldset style="background-color: green;">
+                <legend style="background-color: rgb(212, 39, 39);" style="text-align: center;">Enquiry</legend>
+            Name: <input type="text" name="name" placeholder="Enter your name" required="" autofocus=""maxlength="20"/> <br>
+            <br>
+            <br>
+            Address: <textarea name="address" ></textarea>  <br>
+            <br>
+            <br>
+            Gender: <input type="radio" value="m" name="gender"/> Male
+                    <input type="radio" value="f" name="gender"/> Female
+                    <input type="radio" value="o" name="gender"/> Other 
+                    <br>
+                    <br>
+                    Country: 
+                    <select>
+                        <option>Please select your country</option>
+                        <optgroup label="ASIA">
+                            
+                        <option value="india">India</option>
+                        <option value="shri"> Shri lanka</option>
+                    </optgroup>
+                        <option value="usa">USA</option>
+                        <option value="japan">Japan</option>
+                    </select><br>
+                    <br>
+                    Hobbies:
+                    <input type="checkbox" name="hobbies[]"/> Dancing
+                    <input type="checkbox" name="hobbies[]"/> singing
+                    <input type="checkbox" name="hobbies[]"/> painting <br>
+                    <br>
+                    Image:
+                    <input type="file" name="image"/> <br>
+                    <br>
+                    color:
+                    <input type="color" name=" color"/>
+                    Email:
+                    <input type="email" name="email"/> <br>
+                    <br>
+                    Password:
+                    <input type="password" name="password"/><br>
+                    <br>
+                    Age:
+                    <input type="number" name="age" min="1" max="25 "/><br>
+                    <br>
+                    
+                    Date:
+                    <input type="date" name="date"/> <br>
+                    <br>
+                    Data Time:
+                    <input type="datetime-local" name=""/> <br>
+                    <br> 
+                    Time:
+                    <input type="time" name=""/> <br>
+                    <br>
+                    Month:
+                    <input type="month" name=""/> <br>
+                    <br> 
+                    Week:
+                    <input type="week" name=""/> <br>
+                    <br>
+                    Range:
+                    <input type="range" name=""/>
+
+                    
+
+                   <br><br> <input type="submit" value="send"/> 
+                    <!-- <input type="reset"/> -->
+                </fieldset>
+        </form>
+    </body>
+</html>
