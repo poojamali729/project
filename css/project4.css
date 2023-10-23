@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+main {
+    --main-color: #283526;
+    --primary-color: #888888;
+    --button-background: #4b709e;
+    --primary-button-background: #d4161f;
+    background-color: #e2efff;
+}
+
+h1,
+h2 {
+    font-family: Avenir LT Std;
+    color: var(--main-color);
+}
+
+h3,
+h4 {
+    font-family: "muli";
+    color: var(--main-color);
+}
+
+h3 {
+    font-weight: 750;
+    font-size: 2.2rem;
+    line-height: 6rem;
+    text-transform: capitalize;
+}
+
+p,
+a,
+li,
+button {
+    font-family: "muli";
+    color: var(--primary-color);
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+/*---------------------------- our menu style------------------------ */
+
+header {
+    padding: 0 200px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+}
+
+header nav .left-side-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    background-color: #e2efff;
+}
+
+header nav .left-side-menu a img {
+    width: 130px;
+    height: 55px;
+
+}
+
+header nav .left-side-menu .sub-menu {
+    height: inherit;
+    display: flex;
+}
+
+header nav .left-side-menu .sub-menu a {
+    margin-right: 40px;
+}
+
+header nav .left-side-menu .sub-menu a li {
+    font-size: 20px;
+    text-transform: capitalize;
+    transition: all .2s;
+    color:black;
+}
+
+header nav .left-side-menu .sub-menu a li:hover {
+    color: red;
+}
