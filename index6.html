@@ -1,0 +1,61 @@
+<doctype html>
+    <html>
+
+    <head>
+        <title>INDEX</title>
+    </head>
+    <style type="text/css">
+        .box-container{
+         width: 600px;
+         height: 600px;
+         border: 2px black solid;
+         margin: auto;
+         position: relative;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            animation-name: box;
+            animation-duration: 5s;
+            animation-delay: 1s;
+        }
+        @keyframes box{
+         0%{
+            top: 0px;
+            left: 0px;
+            background-color: red;
+         }
+         25%{
+            top: 0px;
+            left: 400px;
+            background-color: blue;
+         }
+         50%{
+            top: 400px;
+           left: 400px;
+            background-color: yellow;
+         }
+         75%{
+            top: 400px;
+            left: 0px;
+            background-color: blueviolet    ;
+         }
+         100%{
+            top: 0px;
+            left: 0px;
+            background-color: red;
+         }
+        }
+    </style>
+
+    <body>
+        <div class="box-container">
+            <div class="box"></div>
+        </div>
+    </body>
+
+    </html>
