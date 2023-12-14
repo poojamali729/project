@@ -1,32 +1,32 @@
 /* fonts */
 @font-face {
     font-family: "raleway-regular";
-    src: url(../assets/fonts/Raleway-Regular.ttf);
+    src: url(../images/project1.img/fonts/Raleway-Regular.ttf);
 }
 
 @font-face {
     font-family: "raleway-medium";
-    src: url(../assets/fonts/Raleway-Medium.ttf);
+    src: url(../images/project1.img/fonts/Raleway-Medium.ttf);
 }
 
 @font-face {
     font-family: "raleway-bold";
-    src: url(../assets/fonts/Raleway-Bold.ttf);
+    src: url(../images/project1.img/fonts/Raleway-Bold.ttf);
 }
 
 @font-face {
     font-family: "raleway-semibold";
-    src: url(../assets/fonts/Raleway-SemiBold.ttf);
+    src: url(../images/project1.img/fonts/Raleway-SemiBold.ttf);
 }
 
 @font-face {
     font-family: "raleway-extraBold";
-    src: url(../assets/fonts/Raleway-ExtraBold.ttf);
+    src: url(../images/project1.img/fonts/Raleway-ExtraBold.ttf);
 }
 
 @font-face {
     font-family: "raleway-black";
-    src: url(../assets/fonts/Raleway-Black.ttf);
+    src: url(../images/project1.img/fonts/Raleway-Black.ttf);
 }
 
 /* colors */
@@ -145,7 +145,7 @@ body{
 .containers{
     display: flex;
     justify-content: center;
-    
+
 }
 
 .containers a{
@@ -177,19 +177,19 @@ body{
 }
 
 header.hero{
-    background-image: url(../assets/images/hero.png);
+    background-image: url(../images/project1.img/images/hero.png);
     height: 600px;
     background-position: center ;
     background-repeat: no-repeat;
     overflow: hidden;
-    
+
 }
 
 .hero{
    display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .container-h{
