@@ -43,7 +43,9 @@
 }
 body{
     -webkit-font-smoothing:antialiased;
+    height: 100vh;
 }
+
 
 *{
     margin: 0px;
@@ -264,3 +266,4 @@ header.hero{
     right: 40px;
 
  }
+
