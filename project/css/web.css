@@ -6,7 +6,7 @@
 .main {
     width: 100%;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(C:/Users/dmali/Pictures/istock.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/istock.jpg);
     background-size: cover;
     height: 100vh;
 }
