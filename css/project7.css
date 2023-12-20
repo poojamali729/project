@@ -147,7 +147,7 @@ body{
 .containers{
     display: flex;
     justify-content: center;
-    
+
 }
 
 .containers a{
@@ -184,14 +184,14 @@ header.hero{
     background-position: center ;
     background-repeat: no-repeat;
     overflow: hidden;
-    
+
 }
 
 .hero{
    display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .container-h{
