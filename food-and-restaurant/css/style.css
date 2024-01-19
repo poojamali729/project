@@ -46,18 +46,18 @@ header .logo {
     font-size: 2.4rem;
 }
 
-header .navbar {
+header .navBar {
     display: flex;
 }
 
-header .navbar a {
+header .navBar a {
     color: var(--text-color);
     font-size: 1.1rem;
     padding: 10px 20px;
     font-weight: 500;
 }
 
-header .navbar a:hover {
+header .navBar a:hover {
     color: var(--main-color);
     transition: 0.4s;
 }
@@ -333,6 +333,8 @@ section {
     background: var(--text-color);
 }
 
+/*----------------  media queries---------- */
+
 @media (max-width: 1560px){
     header{
         padding: 15px 40px;
@@ -351,7 +353,7 @@ section {
         display: initial;
         color: var(--text-color);
     }
-    header .navbar{
+    header .navBar{
         position: absolute;
         top: -400px;
         left: 0;
@@ -362,7 +364,7 @@ section {
         background: #2b2640;
         transition: 0.3s;
     }
-    header .navbar.active{
+    header .navBar.active{
         top: 70px;
     }
     .navbar a{
